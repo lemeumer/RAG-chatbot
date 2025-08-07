@@ -1,0 +1,9 @@
+Retrieval-Augmented Generation (RAG) is an architecture that combines information retrieval and natural language generation.
+
+In traditional language models, the answers are generated based only on the model's internal knowledge. However, RAG enhances this by retrieving relevant documents from a vector database before generating the response.
+
+The key components of a RAG pipeline include:
+- A retriever: to fetch relevant documents using vector similarity.
+- A generator: usually a language model like GPT or LLaMA, which takes both the user question and retrieved documents as input.
+
+RAG is useful when dealing with constantly changing knowledge or private data that the model was never trained on.
