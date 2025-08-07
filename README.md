@@ -5,8 +5,13 @@ This project is a lightweight implementation of a Retrieval-Augmented Generation
 ---
 
 ## 📁 Project Structure
-<pre lang="text"><code> ## 📁 Project Structure ``` project-root/ ├── docs/ │ └── my_text.txt # Input text file (your knowledge base) ├── faiss_store/ # (Auto-generated) Vector index from FAISS ├── rag.py # Main script for embedding and querying ├── requirements.txt # Python dependencies └── README.md # Project overview and usage instructions ``` </code></pre>
-
+project-root/
+├── docs/
+│ └── my_text.txt # Input text file (your knowledge base)
+├── faiss_store/ # (Auto-generated) Vector index from FAISS
+├── rag.py # Main script for embedding and querying
+├── requirements.txt # Python dependencies
+└── README.md # Project overview and usage instructions
 ---
 
 ## 🚀 Setup Instructions
@@ -69,4 +74,5 @@ HuggingFace Transformers
 
 
 FAISS by Facebook AI
+
 
