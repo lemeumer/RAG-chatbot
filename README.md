@@ -5,13 +5,12 @@ This project is a lightweight implementation of a Retrieval-Augmented Generation
 ---
 
 ## 📁 Project Structure
-
 ├── docs/
-│ └── my_text.txt # Your input text file
-├── faiss_store/ # (Auto-generated) Local vector index
-├── rag.py # Main script to embed/query documents
+│ └── my_text.txt # Input text file (your knowledge base)
+├── faiss_store/ # (Auto-generated) Vector index from FAISS
+├── rag.py # Main script for embedding and querying
 ├── requirements.txt # Python dependencies
-└── README.md # Project overview and instructions
+└── README.md # Project overview and usage instructions
 
 
 ---
@@ -73,5 +72,6 @@ MIT License
 LangChain
 
 HuggingFace Transformers
+
 
 FAISS by Facebook AI
